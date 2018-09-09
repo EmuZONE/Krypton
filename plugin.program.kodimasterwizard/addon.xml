@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.kodimasterwizard" name="[COLOR gold]KodiMaster Wizard[/COLOR]" version="1.0.4" provider-name="KodiMaster">
+  <requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">KodiMaster Wizard - Use this wizard to install the best Kodi builds available!</summary>
+	<description>KodiMaster Wizard - Use this wizard to install the best Kodi builds available!.  Modifed code taken from whufclee.  For help or info please visit http://www.kodimaster.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>

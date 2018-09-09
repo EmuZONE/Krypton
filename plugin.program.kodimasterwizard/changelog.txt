@@ -1,0 +1,12 @@
+V1.0.4
+-Encoded
+
+V1.0.3
+-Added Brettus Builds section
+-Changed to icon view
+
+V1.0.2
+-Added new Third-Party Builds section
+
+V1.0.1
+-First basic release
