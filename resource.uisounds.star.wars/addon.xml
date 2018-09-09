@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.star.wars" version="1.0.0" name="Star Wars VII UI Sounds" provider-name="ClassicNancy">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Star Wars VII UI Sounds</summary>
+	<summary lang="pt_br">Interface de son da skin Star Wars VII</summary>
+    <description lang="en">Star Wars VII UI Sounds</description>
+	<description lang="pt_br">Interface de son da skin Star Wars VII.</description>
+	<forum>https://forums.tvaddons.ag/kodi-look-and-feel/ </forum>
+		<website>https://www.tvaddons.ag/</website>
+    <platform>all</platform>
+  </extension>
+</addon>

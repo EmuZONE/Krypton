@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="resource.uisounds.halloween" version="1.0.1" name="Hallowe'en UI Sounds" provider-name="ClassicNancy">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension point="kodi.resource.uisounds"/>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">Hallowe'en UI Sounds</summary>
+	<summary lang="pt_br">Interface de son da skin Hallowe'en</summary>
+    <description lang="en">Hallowe'en UI Sounds</description>
+	<description lang="pt_br">Interface de son da skin Hallowe'en.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
