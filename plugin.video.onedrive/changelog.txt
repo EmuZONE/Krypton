@@ -1,0 +1,106 @@
+- known issue - Can't access Camera Roll #3
+Version 0.4.0
+- promote to stable
+
+Version 0.3.11
+- add: settings advance (SRT and integrated player)
+Version 0.3.10
+- fix: STRM error
+Version 0.3.9
+- fix silent flag for buildstrm
+Version 0.3.8
+- fix: Something went wrong. The following value was not able to initialize: canaryValue #7
+- passed testing: Special characters like é cause issues generating STRM files #5
+- passed testing: two-factor authentication support #2
+- passed testing: Thumbnails broken on 0.3.0 with OneDrive / OAUTH2 #4
+- disable ClientLogin mode
+Version 0.3.7
+- stability fixes for OneDrive WebApp/ClientLogin
+- fix: Thumbnails broken on 0.3.0 with OneDrive / OAUTH2 #4
+Version 0.3.6
+- fix: Special characters like é cause issues generating STRM files #5
+- fix for unicode characters in filenames and folders
+- fix for STRM playback when first account is set to login type ClientLogin
+Version 0.3.5
+- improvements to indexing
+- fix: Thumbnails broken on 0.3.0 with OneDrive / OAUTH2 #4
+Version 0.3.4
+- add: crashreport debug
+Version 0.3.3
+- partial fix - Thumbnails broken on 0.3.0 with OneDrive / OAUTH2 #4
+- support for subtitles (.srt files) -- will load automatically
+- added special folders (in photos/pictures context) Camera Roll, Documents, Photos and (in music context) Music
+- workaround for Can't access Camera Roll #3
+-- READ & WRITE scope access is required when using special folders.
+-- For authenticating with dmdsoftware.net OAUTH2, use the following:
+-- https://login.live.com/oauth20_authorize.srf?client_id=000000004412F032&scope=wl.offline_access%20onedrive.readwrite&response_type=code&redirect_uri=https://login.live.com/oauth20_desktop.srf
+-- For authenticating with SSL Script, use the following:
+-- https://login.live.com/oauth20_authorize.srf?client_id=0000000040156511&scope=wl.offline_access%20onedrive.readwrite&response_type=code&redirect_uri=https://script.google.com/macros/s/AKfycbwYa0MLXluP5gEdkUwKvImFwykltNyg94EC7yAL_CWCxKaRjkg/exec
+Version 0.3.2
+- enable picture plugin mode and picture support
+Version 0.3.1
+- OneDrive API support added - changes for all login methods except for ClientLogin
+- now included:
+	* support for music
+	* improved folder management
+	* improved STRM creation
+	* improved SEARCH
+	* support for OAUTH2 (support for secure accounts, two-factor authentication accounts, etc)
+- coming soon:
+	* SRT support
+	* integrated player
+	* photo support
+	* download and cache support
+	* OneDrive for business
+Version 0.3.0
+- implement proper label sorting
+- break off to -testing branch
+- upgrade plugin to latest cloudservice framework
+Version 0.2.5
+- disable recursive STRM creation on directories -- prevent never ending creation (will be re-enabled in a future release)
+- add: login error message for two-factor authentication and app passwords (not supported, wait for release 0.3.0)
+Version 0.2.4
+- fix: create directories of STRM on network paths
+- fix: playback of STRM files without username/instancename when multiple accounts are defined
+- fix: add username to buildSTRM
+- add: shared content
+- add: support write STRM to network path
+Version 0.2.3
+- automatic build STRM support / Library Integration
+* 1) right-click on a file to "Generate STRM"
+* 2) right-click on a folder to "Generate STRM" for each file under the folder
+- more reliable / better support for playback (no longer uses url passing)
+Version 0.2.2
+- add search function
+- API: add title and search function
+* Create a STRM for playback using this format
+* to playback a video (first video that matches the title):
+*   plugin://plugin.video.onedrive/?mode=video&title=This is the title of the media file
+*   plugin://plugin.video.onedrive/?mode=video&instance=onedrive1&title=This is the title of the media file
+*
+* to return a list of media files to select from:
+*   plugin://plugin.video.onedrive/?mode=search&title=This is the title of the media file
+*   plugin://plugin.video.onedrive/?mode=search&instance=onedrive1&title=This is the title of the media file
+Version 0.2.1
+- add: single photo support in video mode
+Version 0.2.0
+- added thumbnails for video files
+- added photo support
+- add: extensions
+- updating to latest cloudservice API
+Version 0.1.6
+- fix for showing MKVs/FLVs also as folders
+Version 0.1.5
+- treat application/octect-stream as video files (to handle MKV)
+- add icon and background
+Version 0.1.4
+- trying something new for the import method for windows users
+Version 0.1.3
+- preliminary support for folders
+Version 0.1.2
+- fix playback on files with a space in the filename
+- flush corrupt .pyc from github
+Version 0.1.1
+First public beta
+Version 0.1.0
+- Initial version
