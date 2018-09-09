@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.confluence.mod2018" version="3.1.43" name="[COLOR lime]Confluence MOD 2018[/COLOR]" provider-name="[COLOR lime]YggDraz1l[/COLOR]">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
+		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="de_DE">Confluence Skin von YggDraz1l. (Standard-Skin von Kodi)</summary>
+		<description lang="de_DE">Confluence ist der Standardskin ab Kodi 14.0. Er ist eine Kombination mehrerer unterschiedlicher Skin-Konzepte und versucht dabei, die besten Ideen zu kombinieren, um einen einfachen Einstieg für neue Kodi-Nutzer zu ermöglichen.</description>
+		<platform>all</platform>
+		<license>GNU General Public License version 2</license>
+		<forum>http://worldofwarcry.de/board/</forum>
+		<website/>
+		<email/>
+		<source>https://github.com/emuzone/repo</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+			<screenshot>resources/screenshot-04.jpg</screenshot>
+			<screenshot>resources/screenshot-05.jpg</screenshot>
+			<screenshot>resources/screenshot-06.jpg</screenshot>
+			<screenshot>resources/screenshot-07.jpg</screenshot>
+			<screenshot>resources/screenshot-08.jpg</screenshot>
+			<screenshot>resources/screenshot-09.jpg</screenshot>
+		</assets>
+		<news>Updated language files</news>
+	</extension>
+</addon>
