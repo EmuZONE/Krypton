@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.photosviewer" name="Photos Viewer" version="1.0.1" provider-name="kodiful">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+	  <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	  <platform>all</platform>
+	  <summary lang="en">Photos Viewer</summary>
+	  <summary lang="ja">写真ビューア</summary>
+	  <description lang="en">Browse pictures and videos of macOS Photos App</description>
+	  <description lang="ja">macOS写真アプリの写真と動画をブラウズ</description>
+    <disclaimer lang="en">Works on macOS</disclaimer>
+    <disclaimer lang="ja">macOSで動作</disclaimer>
+    <website>http://kodiful.com/</website>
+  </extension>
+</addon>

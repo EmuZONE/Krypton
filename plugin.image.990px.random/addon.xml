@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.990px.random" name="990px Random" version="1.1.0" provider-name="smuto">
+    <requires>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.simplejson" version="2.0.10"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+	<platform>all</platform>
+	<summary lang="en">990px</summary>
+	<summary lang="pl">990px.pl – fotoreportaże, galerie zdjęć, fotografia cyfrowa</summary>
+	<description lang="en">990px</description>
+	<description lang="pl">Losowo wybrana galeria. Może w ten sposób traficie na temat, którego wcześniej nie udało wam się sprawdzić.</description>
+	<disclaimer lang="en"></disclaimer>
+    </extension>
+</addon>
