@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.emuzone" name="[COLOR skyblue]EMUZONE[/COLOR] [COLOR white]ADDON[/COLOR] [COLOR skyblue]REPOSITORY[/COLOR]" version="2.1.6" provider-name="EmuZONE">
+	<extension point="xbmc.addon.repository" name="EmuZONE">
+		<info compressed="true">https://raw.githubusercontent.com/emuzone/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/emuzone/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/emuzone/repo/master/</datadir>
+	</extension>
+	<import addon="xbmc.python" version="2.1.0"/>
+	<import addon="plugin.video.exodus" version="4.1.07"/>
+	<import addon="plugin.video.xstream" version="3.4.4"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Official Repository of EmuZONE</summary>
+		<summary lang="de">Offizielles Repository der EmuZONE</summary>
+		<description lang="en">This is the official Repository of the german Community 'EmuZONE' which you'll find at www.worldofwarcry.de. Most of the hosted Addons are supported by the members of the Community. Enjoy!</description>
+		<description lang="de">Das ist das offizielle Repository der deutschen Community 'EmuZONE', welche Du unter www.worldofwarcry.de findest. Die meisten der hier gehosteten Addons werden von den Mitgliedern der Community aktiv supported. Viel Spaß!</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
